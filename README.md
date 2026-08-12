@@ -39,10 +39,6 @@ I love building voice-enabled AI and semantic search systems that make automatio
 ## 📈 Dev Metrics & Infrastructure Stats
 <a href="https://git.io/streak-stats"><img src="./profile/streak.svg" alt="GitHub Streak" /></a>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nabeeliqbalxx&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%" />
-</p>
-
 ---
 
 ## 📫 Connect with Me  
