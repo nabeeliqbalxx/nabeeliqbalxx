@@ -1,0 +1,14 @@
+name: Update streak stats
+on:
+  schedule:
+    - cron: "0 3 * * *" # Runs daily at 03:00 UTC
+  workflow_dispatch: # Allows manual trigger
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denvercoder1/github-readme-streak-stats-action@v1
+        with:
+          gh_token: ${{ secrets.ACCESS_TOKEN }}
+          user: ${{ secrets.YOUR_ACTUAL_USERNAME }}
